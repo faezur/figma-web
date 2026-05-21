@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compliance Landing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="assets/images/Logo.png" alt="logo">
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#" class="active">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Our Services</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="navbar-right">
+        <!-- Desktop pe dikhega -->
+        <button class="btn primary contact-btn">
+          <img src="assets/images/image.png" class="phone-icon" alt="">
+          Contact Us
+        </button>
+        <!-- Hamburger: 786px se kam pe dikhega -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <img src="assets/images/menu.png" alt="menu">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-text">
+        <h1>
+          Simplifying <br>
+          <span class="highlight">
+            Compliance
+            <img src="assets/images/underLine-Vector.png" class="underline" alt="">
+          </span> For
+          <br>
+          <span class="nowrap">Research Analysts</span>
+        </h1>
+        <p class="hero-desc">
+          Stay Focused On Your Insights—We'll Handle The Compliance.
+          Our Expert Solutions Ensure Your Research Practices Meet
+          Every Regulatory Requirement With Confidence And Ease
+        </p>
+        <ul class="features">
+          <li><img src="assets/images/check-sign.png" alt="">End-To-End Compliance Support</li>
+          <li><img src="assets/images/check-sign.png" alt="">Regulatory Filings Made Simple</li>
+          <li><img src="assets/images/check-sign.png" alt="">Tailored Solutions For Independent Analysts &amp; Firms</li>
+        </ul>
+        <div class="hero-buttons">
+          <button class="btn primary">Get Started</button>
+          <button class="btn outline">Book A Consultation</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/Banner Image.png" alt="hero">
+      </div>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="container why-wrapper">
+      <div class="why-left">
+        <h2>Why <span>Compliance Matters</span><br>For Research Analysts</h2>
+        <img src="assets/images/Vector2.png" class="vector2" alt="">
+        <img src="assets/images/section2-image.png" class="section-img" alt="">
+        <img src="assets/images/Vector1.png" class="vector1" alt="">
+      </div>
+      <div class="why-right">
+        <p class="why-desc">
+          In Today's Regulatory Environment, Even A Small Oversight Can Lead To
+          Penalties, Reputational Risks, And Loss Of Client Trust. We Help Research
+          Analysts And Firms Navigate Complex Compliance Requirements So They
+          Can Focus On Delivering High-Quality Research Without Worry.
+        </p>
+        <div class="card">
+          <div class="card-content">
+            <h3>Regulatory Clarity</h3>
+            <p>We Decode Complex Compliance Rules Into Simple, Actionable Steps.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>Hassle-Free Filings Clarity</h3>
+            <p>From Registration To Ongoing Reporting—We Manage It End-<wbr>To-End.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <h3>Risk Protection</h3>
+            <p>Stay Ahead Of Audits, Inspections, And Compliance Gaps With Proactive Support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
