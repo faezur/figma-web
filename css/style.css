@@ -624,3 +624,16 @@ body {
   filter: brightness(0) invert(1);
   vertical-align: middle;
 }
+
+.section-img {
+  margin-left: 40px;  
+}
+
+.why-left img.vector1 {
+  position: absolute;
+  width: 120px !important;
+  max-width: 120px !important;
+  height: auto;
+  bottom: -40px; 
+  left: 0;
+}
