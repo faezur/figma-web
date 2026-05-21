@@ -245,7 +245,7 @@ body {
 }
 
 .why-left h2 {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 64px;
   margin-bottom: 30px;
 }
@@ -626,7 +626,7 @@ body {
 }
 
 .section-img {
-  margin-left: 40px;  
+  margin-left: 130px;  
 }
 
 .why-left img.vector1 {
@@ -634,6 +634,6 @@ body {
   width: 120px !important;
   max-width: 120px !important;
   height: auto;
-  bottom: -40px; 
+  bottom: -60px; 
   left: 0;
 }
